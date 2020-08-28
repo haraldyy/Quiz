@@ -98,5 +98,7 @@ elif resposta=='d':
     print('Errado :(')
 else:
     print('Você não escolheu a, b, c ou d :(')
-
-print(f'Você marcou {score} pontos, tente novamente :(')
+if score == 5:
+    print(f'Você marcou {score} pontos, parabéns :)')
+else:
+    print(f'Você marcou {score} pontos, tente novamente :(')
